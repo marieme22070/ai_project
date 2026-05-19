@@ -1,0 +1,44 @@
+:root {
+  --gov-navy: #0c2340;
+  --gov-navy-light: #14325a;
+  --gov-green: #006233;
+  --gov-gold: #c5a572;
+  --gov-sand: #f4f0e8;
+  --gov-white: #ffffff;
+  --gov-text: #1a2b3c;
+  --gov-muted: #5a6b7d;
+  --gov-border: #d4dce6;
+  --gov-success: #0d7a4a;
+  --gov-warning: #b8860b;
+  --gov-danger: #b42318;
+  --shadow: 0 4px 24px rgba(12, 35, 64, 0.08);
+  --radius: 12px;
+  --font: "Source Sans 3", system-ui, sans-serif;
+  --font-ar: "IBM Plex Sans Arabic", "Source Sans 3", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font), system-ui, -apple-system, sans-serif;
+  background: #f8fafc;
+  color: #111827;
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.arabic {
+  font-family: var(--font-ar);
+  direction: rtl;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
